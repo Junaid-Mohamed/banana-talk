@@ -1,0 +1,28 @@
+#txt-area {
+  height: 10vh;
+  width: 90%;
+  display: block;
+  margin: 1rem;
+  padding: 1rem;
+  /* color: purple; */
+}
+
+#btn-translate {
+  background-color: aqua;
+  border-radius: 0.5rem;
+  padding: 0.25rem;
+  margin: 1rem;
+}
+
+#div {
+  font-size: large;
+}
+
+#output {
+  border: 1px solid black;
+  height: 10vh;
+  width: 90%;
+  margin: 1rem;
+  display: block;
+  padding: 1rem;
+}
