@@ -2,10 +2,10 @@ let btnTranslate = document.querySelector("#btn-translate");
 let txtInput = document.querySelector("#txt-area");
 let outputDiv = document.querySelector("#output");
 
-let serverUrl =
-  "https://lessonfourapineogcamp--junaidmohamed2.repl.co/translate/mockserver";
+// let serverUrl =
+//   // "https://lessonfourapineogcamp--junaidmohamed2.repl.co/translate/mockserver";
 
-// let serverUrl = "https://api.funtranslations.com/translate/dolan.json"; // dolan translation
+let serverUrl = "https://api.funtranslations.com/translate/dolan.json"; // dolan translation
 
 function getTranslationUrl(text) {
   return `${serverUrl}?text=${text}`;

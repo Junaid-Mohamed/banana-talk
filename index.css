@@ -1,28 +1,92 @@
-#txt-area {
-  height: 10vh;
-  width: 90%;
+@import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,300;1,400&family=Open+Sans:wght@300;500&display=swap");
+
+body {
+  font-family: "Kanit", sans-serif;
+  background-color: var(--secondary-color);
+  margin: 0%;
+}
+
+:root {
+  --primary-color: #fde047;
+  --secondary-color: #a78bfa;
+  --width-break: 700px;
+}
+
+.hero {
+  padding: 2rem;
+}
+
+.hero .hero-img {
+  margin: auto;
   display: block;
-  margin: 1rem;
+}
+
+.hero .hero-heading {
+  padding-top: 1rem;
+  text-align: center;
+}
+
+main {
+  margin: auto;
   padding: 1rem;
-  /* color: purple; */
+  max-width: var(--width-break);
+}
+
+#txt-area {
+  box-sizing: border-box;
+  display: block;
+  min-height: 20vh;
+  width: 100%;
+  font-size: large;
+  font-family: inherit;
+  padding: 1rem;
+  border-radius: 0.25rem;
 }
 
 #btn-translate {
-  background-color: aqua;
-  border-radius: 0.5rem;
-  padding: 0.25rem;
+  background-color: var(--primary-color);
+  border-radius: 1rem;
+  padding: 1rem 2rem;
   margin: 1rem;
+  font-family: inherit;
+  font-size: larger;
 }
 
-#div {
+/* #div {
+  font-size: large;
+} */
+
+#translated-output {
+  box-sizing: border-box;
+  border: 1px solid black;
+  height: 15vh;
+  /* overflow: scroll; */
+  width: 100%;
+  margin: 1rem;
+  font-family: inherit;
   font-size: large;
 }
 
-#output {
-  border: 1px solid black;
-  height: 10vh;
-  width: 90%;
-  margin: 1rem;
+footer {
+  color: white;
+  background-color: black;
+  padding: 2rem;
+}
+
+footer p {
+  max-width: var(--width-break);
+  margin: auto;
+}
+
+footer div {
+  text-align: center;
+  margin: 0.5rem 0rem;
+}
+
+p {
   display: block;
-  padding: 1rem;
+  margin-block-start: 1rem;
+  margin-block-end: 1rem;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
 }
